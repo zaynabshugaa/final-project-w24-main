@@ -177,6 +177,8 @@ main {
 .product-3 p,
 .product-4 p {
     font-weight: bold; /* Make all <p> elements bold */
+    font-size: 1.50rem;
+    margin-bottom: 1rem; /* Add space below the <p> elements */
 }
 
 .product-1 .price,
@@ -184,12 +186,17 @@ main {
 .product-3 .price,
 .product-4 .price {
    font-weight: 100; /* Leave the <p class="price"> elements normal */
+   font-size: 1.2rem;
+   margin-top: 0.5rem;
+   margin-bottom: 1rem;
 }
 
-.try-it-with h2 {
+.try-it-with h1 {
     text-align: center;
-    font-size: 1.802rem;
+    font-size: 2.027rem;
     padding: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 900;
 }
 
 /*footer*/
