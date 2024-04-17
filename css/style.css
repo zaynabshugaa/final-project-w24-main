@@ -107,6 +107,10 @@ main {
     padding: 40px 0;
 }
 
+.behind-the-dough {
+    background-color:  #f8fafc;
+}
+
 .behind-the-dough p {
     font-size: 1rem;
     margin-bottom: 20px;
@@ -115,10 +119,12 @@ main {
 /* Testimonials Section */
 .testimonials {
     padding: 40px 0;
+    background-color: #000;
 }
 
 .testimonial {
     margin-bottom: 20px;
+    color: #fff;
 }
 
 .testimonial p {
@@ -127,6 +133,12 @@ main {
 
 .testimonial .author {
     font-style: italic;
+}
+
+/*What people are saying H2 (I had to put it in a sep class because it wasnt working*/
+.what-people-are-saying {
+    color:#fff;
+    text-align: center;
 }
 
 /* Try it with Section */
