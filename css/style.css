@@ -117,6 +117,26 @@ main {
 
 
 /* Behind the Dough Section */
+.behind-the-dough .container {
+    display: flex;
+}
+
+.behind-the-dough p {
+    flex: 1;
+    margin: 0; 
+    padding: 1rem;
+}
+
+.behind-the-dough p:first-child {
+    margin-right: 20px; /* Add margin between paragraphs */
+}
+
+.behind-the-dough h2 { 
+    font-size: 1.802rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
 .behind-the-dough {
     padding: 40px 0;
 }
@@ -131,26 +151,23 @@ main {
 }
 
 /* Testimonials Section */
-/* Testimonials Section */
-.testimonials {
-    display: flex;
-    justify-content: space-between; /* Adjust as needed */
-    align-items: center; /* Adjust as needed */
-    padding: 40px 0;
+.what-people-are-saying {
     background-color: #000;
     margin-bottom: 20px;
     color: #fff;
 }
-
-.testimonial {
-    border: 1px solid #ccc;
-    padding: 20px;
-    flex: 1;
+.testimonials .container {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to ensure responsiveness */
 }
 
-/* Remove right margin from last testimonial to prevent overflow */
-.testimonial:last-child {
-    margin-right: 0;
+.testimonials .container > p {
+    flex: 1;
+    margin-right: 20px; /* Add margin between paragraphs */
+}
+
+.testimonials .container > p:last-child {
+    margin-right: 0; /* Remove margin from the last paragraph */
 }
 
 .testimonial .author {
