@@ -38,6 +38,8 @@ header nav ul {
 header nav ul li {
     display: inline-block;
     margin-left: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
 header nav ul li:first-child {
@@ -71,11 +73,12 @@ main {
 
 .sweethearts-affair h2 {
     font-size: 2.027rem;
+    font-weight: 500;
 }
 
 .sweethearts-affair h3 {
     font-size: 1.266rem;
-    color: #f8fafc;
+    text-transform: uppercase;
 }
 
 .sweethearts-affair p {
@@ -87,13 +90,17 @@ main {
     font-size: 1.802rem;
 }
 
-.sweethearts-affair button {
+.button {
+    display: inline-block;
     padding: 10px 20px;
     background-color: #000;
     color: #fff;
+    text-decoration: none;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
 }
+
 
 /* Behind the Dough Section */
 .behind-the-dough {
