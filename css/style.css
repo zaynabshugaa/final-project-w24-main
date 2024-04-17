@@ -155,29 +155,34 @@ main {
     background-color: #000;
     margin-bottom: 20px;
     color: #fff;
+    padding-top: 3rem;
 }
+
 .testimonials .container {
     display: flex;
-    flex-wrap: wrap; /* Allow wrapping to ensure responsiveness */
+    flex-wrap: wrap;
 }
 
-.testimonials .container > p {
+.testimonial {
     flex: 1;
-    margin-right: 20px; /* Add margin between paragraphs */
+    margin-right: 20px;
+    margin-left: 20px; 
+    margin-top: 30px;
+    margin-bottom: 4rem;
 }
 
-.testimonials .container > p:last-child {
-    margin-right: 0; /* Remove margin from the last paragraph */
+.testimonial p {
+    margin-bottom: 0;
 }
 
 .testimonial .author {
     font-style: italic;
+    margin-top: 20px; 
 }
 
-/*What people are saying H2 (I had to put it in a sep class because it wasnt working*/
-.what-people-are-saying {
-    color:#fff;
+.what-people-are-saying h2 {
     text-align: center;
+    font-size: 1.802rem;
 }
 
 /* Try it with Section */
