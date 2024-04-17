@@ -261,81 +261,24 @@ footer p {
 /* Media Queries */
 
 @media screen and (min-width: 768px) {
-    .testimonials .container {
-        /* Your existing CSS for the testimonials section */
-    }
 
-    .try-it-with .container {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .product-1-container,
-    .product-2-container,
-    .product-3-container,
-    .product-4-container {
-        background-color: #f8fafc;
-        flex: 1;
-        margin: 0 10px;
-        padding: 0px;
-        border-radius: 8px;
-        text-align: center;
-    }
-
-    .product-1,
-    .product-2,
-    .product-3,
-    .product-4 {
-        max-width: 100%;
-    }
-
-    .product-1 img,
-    .product-2 img,
-    .product-3 img,
-    .product-4 img {
-        max-width: 100%;
-        border-top-left-radius: 8px;
-        border-top-right-radius: 8px;
-    }
-
-    .product-1 p,
-    .product-2 p,
-    .product-3 p,
-    .product-4 p {
-        font-weight: bold;
-        font-size: 1.50rem;
-        margin-bottom: 1rem;
-    }
-
-    .product-1 .price,
-    .product-2 .price,
-    .product-3 .price,
-    .product-4 .price {
-        font-weight: 100;
-        font-size: 1.2rem;
-        margin-top: 0.5rem;
-        margin-bottom: 1rem;
-    }
-
-    .try-it-with h1 {
-        text-align: center;
-        font-size: 2.027rem;
-        padding: 2rem;
-        margin-bottom: 0.5rem;
-        font-weight: 900;
-    }
-
-    /* Adjust image size */
-    .product-1 img,
-    .product-2 img,
-    .product-3 img,
-    .product-4 img {
-        max-width: 80%; /* Change the width as needed */
-    }
-
-    /* Any other specific styles for the 768px layout */
 }
 
 @media screen and (min-width: 960px) {
-    /* Your CSS for the 960px layout */
+    /* Display both sections side by side */
+    .product-images,
+    .sweethearts-affair {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    /* Set the width of each section */
+    .product-images {
+        width: 60%; /* Adjust as needed */
+    }
+
+    .sweethearts-affair {
+        width: 35%; /* Adjust as needed */
+    }
 }
