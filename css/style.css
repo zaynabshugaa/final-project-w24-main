@@ -68,7 +68,7 @@ main {
     padding: 40px 0;
 }
 
-/* Product Images Section */
+/* product images */
 .product-images {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Display 2 images in each row */
@@ -128,7 +128,7 @@ main {
 }
 
 .behind-the-dough p:first-child {
-    margin-right: 20px; /* Add margin between paragraphs */
+    margin-right: 20px;
 }
 
 .behind-the-dough h2 { 
@@ -223,16 +223,16 @@ main {
 .product-2 p,
 .product-3 p,
 .product-4 p {
-    font-weight: bold; /* Make all <p> elements bold */
+    font-weight: bold; /*<p> elements bold */
     font-size: 1.50rem;
-    margin-bottom: 1rem; /* Add space below the <p> elements */
+    margin-bottom: 1rem; /*space below <p> elements */
 }
 
 .product-1 .price,
 .product-2 .price,
 .product-3 .price,
 .product-4 .price {
-   font-weight: 100; /* Leave the <p class="price"> elements normal */
+   font-weight: 100; /* Leave the p price elements normal */
    font-size: 1.2rem;
    margin-top: 0.5rem;
    margin-bottom: 1rem;
@@ -258,7 +258,7 @@ footer p {
     text-align: center;
 }
 
-/* Media Queries */
+/* Media Queries (no idea what im doing here lol)*/ 
 
 @media screen and (min-width: 768px) {
 
@@ -273,12 +273,11 @@ footer p {
         justify-content: space-between;
     }
 
-    /* Set the width of each section */
     .product-images {
-        width: 60%; /* Adjust as needed */
+        width: 60%;
     }
 
     .sweethearts-affair {
-        width: 35%; /* Adjust as needed */
+        width: 35%;
     }
 }
