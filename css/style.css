@@ -171,3 +171,23 @@ main {
     border-top-left-radius: 8px; /* Adjust border radius for top-left corner */
     border-top-right-radius: 8px; /* Adjust border radius for top-right corner */
 }
+
+.product-1 p,
+.product-2 p,
+.product-3 p,
+.product-4 p {
+    font-weight: bold; /* Make all <p> elements bold */
+}
+
+.product-1 .price,
+.product-2 .price,
+.product-3 .price,
+.product-4 .price {
+   font-weight: 100; /* Leave the <p class="price"> elements normal */
+}
+
+.try-it-with h2 {
+    text-align: center;
+    font-size: 1.802rem;
+    padding: 2rem;
+}
