@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color: #222;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px; /* Added padding to the sides */
+}
+
+header {
+    background-color: #fff; /* Changed the background color */
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    max-width: 200px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header nav ul li:first-child {
+    margin-left: 0;
+}
+
+header nav ul li a {
+    color: #222; /* Changed the text color */
+    text-decoration: none;
+}
+
+main {
+    padding: 40px 0;
+}
+
+/* Product Images Section */
+.product-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Display 2 images in each row */
+    gap: 20px;
+}
+
+.product-images img {
+    width: 100%;
+}
+
+/* Sweetheart's Affair Section */
+.sweethearts-affair {
+    padding: 40px 0;
+}
+
+.sweethearts-affair h2 {
+    font-size: 2.027rem;
+}
+
+.sweethearts-affair h3 {
+    font-size: 1.266rem;
+    color: #f8fafc;
+}
+
+.sweethearts-affair p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.sweethearts-affair p.price {
+    font-size: 1.802rem;
+}
+
+.sweethearts-affair button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Behind the Dough Section */
+.behind-the-dough {
+    padding: 40px 0;
+}
+
+.behind-the-dough p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 40px 0;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+}
+
+.testimonial p {
+    font-size: 1rem;
+}
+
+.testimonial .author {
+    font-style: italic;
+}
+
+/* Try it with Section */
+.try-it-with {
+    padding: 40px 0;
+}
+
+.try-it-with h2 {
+    font-size: 1.802rem;
+    margin-bottom: 20px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.product p.price {
+    font-size: 1.266rem;
+}
