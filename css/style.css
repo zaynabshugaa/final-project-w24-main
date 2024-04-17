@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -261,9 +263,9 @@ footer p {
 /* Media Queries */
 
 @media screen and (min-width: 768px) {
-    /* Adjust page for 768px screen size and above */
+
 }
 
 @media screen and (min-width: 960px) {
-    /* Adjust page for 960px screen size and above */
+
 }
