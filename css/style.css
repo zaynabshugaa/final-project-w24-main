@@ -139,37 +139,37 @@ main {
 }
 
 /* Try it with Section */
-.container {
+.try-it-with .container {
     display: flex;
-    justify-content: space-between; /* Adjust as needed */
+    justify-content: space-between; 
 }
 
 .product-1-container,
 .product-2-container,
 .product-3-container,
 .product-4-container {
-    background-color: #f8fafc; /* Background color */
+    background-color: #f8fafc; 
     flex: 1;
-    margin: 0 10px; /* Adjust spacing between items */
-    padding: 0px; /* Adjust padding as needed */
-    border-radius: 8px; /* Adjust border radius for slightly rounded corners */
-    text-align: center; /* Optionally center the content */
+    margin: 0 10px; 
+    padding: 0px; 
+    border-radius: 8px; /*rounded corners */
+    text-align: center; 
 }
 
 .product-1,
 .product-2,
 .product-3,
 .product-4 {
-    max-width: 100%; /* Adjust the maximum width as needed */
+    max-width: 100%;
 }
 
 .product-1 img,
 .product-2 img,
 .product-3 img,
 .product-4 img {
-    max-width: 100%; /* Adjust the maximum width as needed */
-    border-top-left-radius: 8px; /* Adjust border radius for top-left corner */
-    border-top-right-radius: 8px; /* Adjust border radius for top-right corner */
+    max-width: 100%; 
+    border-top-left-radius: 8px; 
+    border-top-right-radius: 8px; 
 }
 
 .product-1 p,
@@ -190,4 +190,15 @@ main {
     text-align: center;
     font-size: 1.802rem;
     padding: 2rem;
+}
+
+/*footer*/
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 1.5rem;
+}
+
+footer p {
+    text-align: center;
 }
