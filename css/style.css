@@ -120,9 +120,6 @@ main {
 .testimonials {
     padding: 40px 0;
     background-color: #000;
-}
-
-.testimonial {
     margin-bottom: 20px;
     color: #fff;
 }
@@ -142,31 +139,35 @@ main {
 }
 
 /* Try it with Section */
-.try-it-with {
-    padding: 40px 0;
-}
-
-.try-it-with h2 {
-    font-size: 1.802rem;
-    margin-bottom: 20px;
-}
-
-.product {
+.container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-between; /* Adjust as needed */
 }
 
-.product img {
-    width: 100%;
-    margin-bottom: 10px;
+.product-1-container,
+.product-2-container,
+.product-3-container,
+.product-4-container {
+    background-color: #f8fafc; /* Background color */
+    flex: 1;
+    margin: 0 10px; /* Adjust spacing between items */
+    padding: 0px; /* Adjust padding as needed */
+    border-radius: 8px; /* Adjust border radius for slightly rounded corners */
+    text-align: center; /* Optionally center the content */
 }
 
-.product p {
-    font-size: 1rem;
-    margin-bottom: 5px;
+.product-1,
+.product-2,
+.product-3,
+.product-4 {
+    max-width: 100%; /* Adjust the maximum width as needed */
 }
 
-.product p.price {
-    font-size: 1.266rem;
+.product-1 img,
+.product-2 img,
+.product-3 img,
+.product-4 img {
+    max-width: 100%; /* Adjust the maximum width as needed */
+    border-top-left-radius: 8px; /* Adjust border radius for top-left corner */
+    border-top-right-radius: 8px; /* Adjust border radius for top-right corner */
 }
